@@ -2,19 +2,14 @@
   <div class="app">
     <h1>Rive Animation Demo</h1>
 
-    <!-- Example using a public Rive file -->
     <RiveAnimation
-      src="https://cdn.rive.app/animations/vehicles.riv"
+      src="/orb_particles.riv"
       :width="500"
       :height="500"
       :autoplay="true"
       @load="onRiveLoad"
       @loaderror="onRiveError"
     />
-
-    <p class="info">
-      Replace the src with your own .riv file URL or path
-    </p>
   </div>
 </template>
 
