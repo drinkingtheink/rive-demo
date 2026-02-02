@@ -33,22 +33,29 @@ export default {
 </script>
 
 <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #e0e0e0;
 }
 
 h1 {
-  margin-bottom: 20px;
-}
-
-.info {
-  margin-top: 20px;
-  color: #666;
-  font-size: 14px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 300;
 }
 </style>
