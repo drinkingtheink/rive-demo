@@ -37,7 +37,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: black;
+  background-color: #222;
 }
 
 #app {
@@ -49,7 +49,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #222;
   color: #e0e0e0;
 }
 
